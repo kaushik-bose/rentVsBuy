@@ -12,7 +12,7 @@ def simulate_rent_vs_buy(
     invest_return_down=0.1,
     house_appreciation=0.072,
     surplus_investment_return=0.12,
-    possession_delay_months=24  # Now input is in months
+    possession_delay_months=0  # Now input is in months
 ):
     print("\n=== Initial Assumptions ===")
     print(f"House Price: ₹{house_price / 1e7:.2f} Cr")
